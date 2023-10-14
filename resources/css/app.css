@@ -1,0 +1,155 @@
+.sertifikat {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.sertifikat img:first-child {
+    width: 100%;
+    height: auto;
+}
+
+/* .sertifikat #image{
+    width: 100%;
+    height: auto;
+} */
+
+.sertifikat h4 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 500px) {
+    #nipdS{
+        font-size: 25px;
+        top: 410px;
+        left: 50%;
+    }
+
+    #nameS{
+        font-size: 25px;
+        bottom: 80%;
+        top: 25%;
+        left: 50%;
+        right: 50%;
+    }
+}
+@media screen and (max-width: 1010px) {
+    #nipdS{
+        font-size: 25px;
+        top: 410px;
+        left: 50%;
+    }
+
+    #nameS{
+        font-size: 25px;
+        bottom: 80%;
+        top: 25%;
+        left: 50%;
+        right: 50%;
+    }
+}
+
+#nipdS {
+    font-size: 25px;
+    width: max-content;
+    position: absolute;
+    font-weight:lighter;
+    color: #282A3A;
+    top: 410px;
+    left: 50%;
+}
+#nameS {
+    font-family:'Brush Script MT';
+    font-weight: 60;
+    font-style:inherit;
+    font-size: 90px;
+    color:goldenrod;
+    width: max-content;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+
+#kejuruanS {
+    font-size: 25px;
+    color :#282A3A;
+    font-weight:lighter;
+    font-family: 'Times New Roman', Times, serif;
+    /* text-decoration:underline; */
+    width: max-content;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+}
+
+#eventS {
+    position: absolute;
+    top : 51%;
+    left: 50%;
+    color : #27374D;
+    font-size: 50px;
+    text-transform: uppercase;
+    word-spacing: 80%;
+    
+}
+
+#tanggalS {
+    position: absolute;
+    top : 63%;
+    left: 50%;
+    color: #27374D;
+    font-family: Rockwell;
+    font-size: 28px;
+}
+
+#dudiS {
+    position: absolute;
+    color: #27374D;
+    top : 85%;
+    left: 54%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+#barcodeS {
+    position: absolute;
+    top : 78%;
+    left: 48%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.sertifikat h6 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#ket1 {
+    position: absolute;
+    font-family: calibri;
+    font-size: 29px;
+    color: #27374D;
+    top : 46%;
+    left: 50%;
+    width: max-content;
+    
+}
+
+#ket2 {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    color: #27374D;
+    font-weight: 20%;
+    width: max-content;
+    font-family: calibri;
+    font-size: 29px;
+    word-spacing: 80%; 
+}
+
+
